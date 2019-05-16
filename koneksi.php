@@ -2,7 +2,7 @@
 $dbHost = 'localhost';
 $dbUser = 'root';
 $dbPass = '';
-$dbName = 'akademik';
+$dbName = 'akademik'; //nama DB
 
 $koneksi = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
  

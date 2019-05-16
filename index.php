@@ -25,7 +25,7 @@
 		</tr>
 		<?php 		
 		$no = 1;
-		$data = mysqli_query($koneksi,"select * from mahasiswa");
+		$data = mysqli_query($koneksi,"select * from mahasiswa"); //tabel mahasiswa
 		while($d = mysqli_fetch_array($data)){
 			echo "<tr>";
 			echo "<td>".$no++."</td>";
